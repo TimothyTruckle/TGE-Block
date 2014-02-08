@@ -7,8 +7,8 @@ import org.junit.Test;
 public class ZweiZahlenBerechnungTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testAddiereKleineZahlen() {
+		new ZweiZahlenBerechnung();
 	}
 
 }
