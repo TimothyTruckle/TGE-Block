@@ -8,7 +8,10 @@ public class ZweiZahlenBerechnungTest {
 
 	@Test
 	public void testAddiereKleineZahlen() {
-		new ZweiZahlenBerechnung();
+		int a = 1;
+		String rechenZeichen= "+";
+		int b = 2;
+		int ergebnis = new ZweiZahlenBerechnung().ergebnisVon(a,rechenZeichen,b);
 	}
 
 }
